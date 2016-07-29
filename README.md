@@ -2,16 +2,16 @@
 Ajuda a especificar a composição do CPF e criar metodos que auxilie o seu trabalho de validação e manipulação.
 
 ##Composição do CPF (Ex.: ABCDEFGHI-JK)
-A - 
-B - 
-C - 
-D - 
-E - 
-F - 
-G - 
-H - 
-I - Baseado em uma tabela, informa em qual UF o CPF foi registrado
-JK - Digitos verificadores calculados
+A - <br>
+B - <br>
+C - <br>
+D - <br>
+E - <br>
+F - <br>
+G - <br>
+H - <br>
+I - Baseado em uma tabela, informa em qual UF o CPF foi registrado<br>
+JK - Digitos verificadores calculados<br>
 
 
 ###Metodos
