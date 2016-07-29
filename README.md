@@ -1,4 +1,4 @@
-# CPF - Biblioteca que manipula informações com CPF
+# CPF
 Ajuda a especificar a composição do CPF e criar metodos que auxilie o seu trabalho de validação e manipulação.
 
 ##Composição do CPF (Ex.: ABCDEFGHI-JK)
