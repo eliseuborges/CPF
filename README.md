@@ -3,5 +3,5 @@
 Biblioteca que manipula informações com CPF
 
 ##Metodos
-- Validação de CPF
-- UF Registro do CPF
+- Validação de CPF (Não Implementado)
+- UF Registro do CPF (Implementado)
