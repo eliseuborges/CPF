@@ -17,7 +17,7 @@ class CPF{
 	 */
 	public function getUFRegistro()
 	{
-		$nonoDigito = substr($htis->CPF, 8, 1);
+		$nonoDigito = substr($this->CPF, 8, 1);
 		
 		switch($nonoDigito)
 		{
