@@ -1,0 +1,36 @@
+<?php
+/**
+ * @author Eliseu Borges do Amaral
+ */
+class CPF{
+	
+	private $CPF
+	
+	public function __construct($CPF)
+	{
+		$this->CPF = $CPF;
+	}
+	
+	/**
+	 * Retorna a UF que o CPF foi registrado
+	 * Regra extraida de https://www.geradordecpf.org/
+	 */
+	public function getUFRegistro()
+	{
+		$nonoDigito = substr($htis->CPF, 8, 1);
+		
+		switch($nonoDigito)
+		{
+			case 0: "Rio Grande do Sul"; break;
+			case 1: "Distrito Federal, Goiás, Mato Grosso do Sul e Tocantins"; break;
+			case 2: "Pará, Amazonas, Acre, Amapá, Rondônia e Roraima"; break;
+			case 3: "Ceará, Maranhão e Piauí"; break;
+			case 4: "Pernambuco, Rio Grande do Norte, Paraíba e Alagoas"; break;
+			case 5: "Bahia e Sergipe"; break;
+			case 6: "Minas Gerais"; break;
+			case 7: "Rio de Janeiro e Espírito Santo"; break;
+			case 8: "São Paulo"; break;
+			case 9: "Paraná e Santa Catarina"; break;
+		}
+	}
+}
